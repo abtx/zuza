@@ -1,19 +1,34 @@
 .main-container {
+  border: solid 2px black;
     display: grid;
+    height:250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
 }
 
 header {
     background: red;
+    width: 50%;
+    height:50%;
 }
 
-sidebar {
+.sidebar1{
     background: blue;
 }
-
+.sidebar2{
+  background: yellow;
+}
+.sidebar3{
+  background: orange;
+}
 main {
     background: white;
 }
 
 footer {
     background: brown;
+    width: 50%;
+    height: 100%;
+    text-align: justify;
 }
