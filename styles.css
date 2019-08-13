@@ -1,0 +1,19 @@
+.main-container {
+    display: grid;
+}
+
+header {
+    background: red;
+}
+
+sidebar {
+    background: blue;
+}
+
+main {
+    background: white;
+}
+
+footer {
+    background: brown;
+}
